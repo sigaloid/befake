@@ -3,6 +3,7 @@ import { event } from "vue-gtag";
 const store = createStore({
   state() {
     return {
+      // Regular old cors-anywhere installation. Can be replaced if original server is blocked/renamed.
       proxyUrl: "https://warm-scrubland-06418.herokuapp.com",
       loginUrl: "https://us-central1-befake-623af.cloudfunctions.net/login",
       // loginUrl: "http://127.0.0.1:5001/befake-623af/us-central1/login",
